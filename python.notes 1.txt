@@ -1,0 +1,108 @@
+strings;
+length=len(variable)
+split=variable.split('required letter')
+lowercase=variable.lower(  )
+uppercase=variable.upper(  )
+replacement=variable.replace('_','@')
+startwith letters=variable.startswith('required letter' )
+ends with letters= variable.endswith('required letter' )
+counting = variable.count('required letter/word' )
+position of index= variable.index('required letter' )
+reverse positin of index=variable.rindex('required letter' )
+find position of letter= variable.find('required letter' )
+reverse find position of letter= variable.rfind('required letter' )
+Index =variable[required letter]
+NOTE: index starts with ''0'' position
+To print required letter/word in string=variable[start : end+1]
+
+13 Aug 2020 :
+
+step size= variable[start : end+1 : stepsize]
+NOTE: If you want elements/index in reverse order the step size must be '-1'
+     ex:a[ : :-1]
+
+14 Aug 2020 :
+
+conditional statements :
+	If
+	If else
+	Else if
+
+Logical operator :
+	and , or , not
+
+Relational operators :
+	<,<=,>,>=,==,!=
+example program of if else:
+	
+	a=int(input("enter a number"))
+	if a<20:
+   	    print(a,"is less than 20")
+	else:
+   	    print(a,"is greater than 20")
+
+15 Aug 2020:
+
+If you want to enter more than one variable in single line we can use :
+~~var1,var2,var3,var4=map(int,input().split())
+
+17 Aug 2020 :
+
+In python swap of elements syntax:  var1,var2 = var2,var1
+
+18 Aug 2020:
+
+Functions:
+	syntax: def function_name():
+		----------
+		--------
+		return()
+function call :print(function_name())
+
+25 Aug 2020:
+
+ex program;
+	i=1
+	n=int()
+	while i<n:
+	  print(i)
+	  i+=1
+
+28 Aug 2020:
+Datatypes: int,float,string,bool
+
+Core Data types : collection of hetrogenous data
+1.list
+2.Tuple
+3.Dictonary
+4.Set
+
+List :
+	declaration: var=[]
+	we can access the elements is lists through index 
+	syntax : a[index1:index2:index3],a[index],a[index1:index2]
+**append=add a number/string to list at the end of list {sy:var.append(num/string)}
+**insert=add a number/string in between two elements in list {sy:var.insert(num/string)}
+**extend=add a list numbers/string as individual elements to another list {sy:var.extend(listname)}
+**   pop=remove the number/string at the end of list by index position {sy:var.pop()}
+**remove=delete the element in list by element {sy:var.remove(num/string)}
+**   del=to remove the elements fron one position to another position {sy:del var[index1:index2]}
+**clear =To clear the all elements in list {sy:var.clear()}
+
+----n=list(map(int,input(),split())) take  multiple elements as input in list
+
+if given string is alphabetical string we use {sy;var.isalpha():}
+if given string is numerical string we use {sy;var.isdigit():}
+
+Tuple : it is collection of hetrogenious datatypes are immutable
+
+	declaration: var=()
+	we can access the elements is tuples through index a[0],a[-1],a[:2]
+**delete={sy:del var}
+
+Set or unordered lists,without duplicates :
+
+	declaration: var={}
+**update=Is used add a new element to set{sy:var.update({element)}
+**remove=remove a particular element in set{sy:var.remove(element)}
+ sfaterfhvcdgx
