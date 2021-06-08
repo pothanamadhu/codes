@@ -1,0 +1,13 @@
+choice=str(input())
+a=int(input())
+b=int(input())
+if(choice=="add"):
+      print(a+b)
+elif(choice=="sub"):
+      print(a-b)
+elif(choice=="mul"):
+      print(a*b)
+elif(choice=="div"):
+      print(a/b)
+elif(choice=="mod"):
+      print(a%b)
